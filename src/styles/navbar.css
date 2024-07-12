@@ -1,0 +1,28 @@
+
+.navbar-brand img {
+    height: 5px;
+    border-radius: 100px;
+  }
+
+.nav-link.dropdown-arrow i {
+    transition: transform 0.3s;
+  }
+  .nav-link.dropdown-arrow.show i {
+    transform: rotate(180deg);
+  }
+  
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .custom-rounded {
+    border-radius: 8px white; 
+  }
+  
+
+
+  
